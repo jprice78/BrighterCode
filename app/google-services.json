@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "25143592335",
+    "firebase_url": "https://brighterassesment.firebaseio.com",
+    "project_id": "brighterassesment",
+    "storage_bucket": "brighterassesment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25143592335:android:33955dd38262c006",
+        "android_client_info": {
+          "package_name": "com.jaxs.jprice.brighterassesment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25143592335-o90oph51d904g7d74d0ndd6hbmdi9mt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaiXnaP2V7Ssngf_46rjscgp0yyj4MzAo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

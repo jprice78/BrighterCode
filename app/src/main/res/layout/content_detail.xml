@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jaxs.jprice.brighterassesment.DetailActivity"
+    tools:showIn="@layout/activity_detail">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:id="@+id/thumbnail_image_header"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameofproducts"
+        android:text="Name of Product"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:layout_below="@+id/thumbnail_image_header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Txtname"
+        android:textSize="20sp"
+        android:layout_below="@+id/nameofproducts"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/TxtDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Txtname"
+        android:layout_marginLeft="134dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
